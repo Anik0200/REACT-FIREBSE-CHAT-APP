@@ -1,0 +1,31 @@
+.forget-card {
+  @apply rounded-[10px] justify-center items-center bg-[#000000da]
+
+             h-[200px] w-[300px] lg:h-[300px] lg:w-[600px] md:h-[320px] md:w-[580px];
+}
+
+.forget-card h2 {
+  @apply mb-[30px] text-[20px] md:mb-[50px] md:text-[25px] lg:text-[30px];
+}
+
+.forget-card input {
+  @apply bg-transparent outline-none rounded-[20px] text-[#fff]
+
+               border-primary border-[2px]
+
+                px-[20px] py-[20px]  md:px-[20px] md:py-[20px]
+
+                h-[40px] w-[250px]  md:h-[40px] md:w-[400px];
+}
+
+.forget-card button {
+  @apply text-[#FFF] rounded-[20px] bg-primary mt-[15px] py-[10px] px-[50px]
+
+            text-[14px] md:text-[18px] lg:text-[20px];
+}
+
+.forget-card .error {
+  @apply text-red-500 font-poppins font-bold mt-[4px] ml-[10px]
+
+    lg:text-[14px] md:text-[12px] text-[10px];
+}

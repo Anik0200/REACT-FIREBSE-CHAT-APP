@@ -1,0 +1,86 @@
+.register {
+  @apply w-full  flex flex-col lg:flex-row  bg-primary relative;
+}
+
+.register-left-bg img {
+  @apply absolute top-[29%] w-[777px] hidden lg:flex;
+}
+
+.register-left .register-title {
+  @apply lg:w-[555px]  lg:text-[30px] lg:pt-[154px] lg:pl-[30px] lg:pb-0 lg:text-start
+
+             w-full text-[20px] pt-[20px] text-center pb-[20px];
+}
+
+.register-right {
+  @apply w-full bg-[#fff] rounded-t-[25px] lg:rounded-tl-[50px] lg:rounded-bl-[50px];
+}
+
+.register-head {
+  @apply lg:pt-[109px] pt-[30px];
+}
+
+.register-head h2 {
+  @apply lg:text-[48px] text-[24px];
+}
+
+.register-right .btn {
+  @apply lg:gap-[54px] gap-[30px] lg:mt-[51px] mt-[30px];
+}
+
+.register-right .btn button {
+  @apply flex items-center justify-center px-0 py-0 h-[50px] w-[210px] text-[12px] gap-[10px]
+
+               md:px-[20px] md:py-[20px] md:h-[50px] md:w-[250px] md:text-[14px] md:gap-[10px]
+
+               lg:px-0 lg:py-0 lg:w-[314px]  lg:h-[66px]  lg:text-[21px] lg:gap-[17px]  text-[#9D9D9D]
+
+               font-poppins font-medium border-solid border-[2px] border-[#A6A6A6] rounded-[20px];
+}
+
+.register-right .OR {
+  @apply text-center mt-[30px] mb-[30px]  text-[20px]
+
+            md:mt-[35] md:mb-[35px]  md:text-[25px]
+
+            lg:mt-[44px] lg:mb-[58px]  lg:text-[36px];
+}
+
+.register-form input {
+  @apply border-solid border-[#B8B8B8] border-b-[2px] outline-none pb-[1px]  w-[300px] md:w-[526px]
+
+                lg:placeholder:text-[26px] md:placeholder:text-[20px] placeholder:font-poppins
+
+                placeholder:font-medium bg-transparent;
+}
+
+.register-form button {
+  @apply lg:py-[15px] lg:px-[142px] lg:text-[30px]
+
+             md:py-[15px] md:px-[142px] md:text-[20px]
+
+             py-[15px] px-[75px] text-[20px]
+
+             rounded-[20px] bg-primary;
+}
+
+.register-form h2 {
+  @apply text-[18px] mb-[25px]
+
+          lg:text-[26px] lg:mb-[119px];
+}
+
+.register-form .input-group .eye {
+  @apply absolute top-0 right-0 text-[#A6A6A6] text-[20px];
+}
+
+.register-form input[type="password"]::-ms-reveal,
+.register-form input[type="password"]::-ms-clear {
+  display: none;
+}
+
+.register-form .input-group .error {
+  @apply text-red-500 font-poppins font-bold mt-[2px]
+
+           lg:text-[18px] md:text-[15px] text-[12px];
+}

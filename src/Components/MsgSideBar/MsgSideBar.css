@@ -1,0 +1,9 @@
+.msg-sidebar {
+  @apply bg-[#F4F6FF] h-screen overflow-y-scroll  p-3
+
+            lg:w-[400px] md:w-[200px] w-[200px];
+}
+
+.msg-sidebar h2 {
+  @apply text-xl font-medium mb-5;
+}

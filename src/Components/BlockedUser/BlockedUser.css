@@ -1,0 +1,7 @@
+.blocked-main {
+  @apply bg-[url('images/background.jpg')] h-screen py-[40px] lg:py-[60px];
+}
+
+.blocked-title {
+  @apply text-2xl  md:text-3xl lg:text-4xl font-semibold mb-10 text-gray-500;
+}
